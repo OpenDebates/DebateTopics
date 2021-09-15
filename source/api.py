@@ -4,7 +4,7 @@ import utils
 from Flask import *
 
 app = Flask(__name___)
-app.config["DEBUG"] = True
+app.config["DEBUG"] = False
 
 class TokenRequiredError(Exception):
   def __repr__(self) -> str:
@@ -18,7 +18,7 @@ class TokenRequiredError(Exception):
     'POST'
   ]
 )
-def _home():
+def _home() - > str:
   return "<h1>OpenDebates Debate Topics API</h1> <p>version - 1.0-alpha</p1>", 200
 
 #version route
@@ -29,8 +29,8 @@ def _home():
     'POST'
   ]
 )
-def _home():
-  if utils.check_token() == False:
+def _home() -> str:
+  if utils.check_token(request.args) == False:
     raise TokenRequiredError()
   return "<h1>OpenDebates Debate Topics API</h1> <p>version - 1.0-alpha</p1>", 200
 
@@ -41,8 +41,8 @@ def _home():
     'GET',
     'POST'
   ])
-def _get_topic()
-  if utils.check_token() == False:
+def _get_topic() -> dict:
+  if utils.check_token(request.args) == False:
     raise TokenRequiredError()
   if "amount" not in request.args:
     return jsonify([{
