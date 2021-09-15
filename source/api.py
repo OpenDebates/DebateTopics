@@ -173,4 +173,17 @@ def _add_topic() -> dict:
   else:
     raise TopicExistsError(request.json['topic'])
   
-  app.run("0.0.0.0")
+@app.route(
+  '/categories',
+  methods = [
+    'GET',
+    'POST'
+  ]
+)
+def _categories() -> str:
+  if utils.check_token(request.json) == False:
+    raise TokenRequiredError()
+  return "climate_change, morals, gun_control, education, human_rights"
+  
+  
+app.run("0.0.0.0")
