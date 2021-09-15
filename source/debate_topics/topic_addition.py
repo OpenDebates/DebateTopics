@@ -23,7 +23,8 @@ topic_filepaths = {
 }
 
 def add_topic(
-  topic: str
+  topic: str,
+  category: str
 ) -> bool:
   for topic in topic_filepaths.keys():
     with open(topic_filepaths[topic], "r+") as f:
@@ -34,4 +35,7 @@ def add_topic(
       continue
     if topic in lines:
       return False
+  with open(topic_filepaths[category], "a") as f:
+    f.write(topic + "\n")
+    f.close()
   return True
