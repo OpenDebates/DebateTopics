@@ -1,25 +1,19 @@
 topic_files = [
-  'data/climate_change.txt',
-  'data/morals.txt',
-  'data/gun_control.txt',
-  'data/education.txt',
-  'data/human_rights.txt'
+  'data/philosophy.txt',
+  'data/politics.txt',
+  'data/misc.txt'
 ]
 
 topic_categories = [
-  'climate_change',
-  'morals',
-  'gun_control',
-  'education',
-  'human_rights'
+  'philosophy',
+  'politics',
+  'misc
 ]
 
 topic_filepaths = {
-  'climate_change': 'data/climate_change.txt',
-  'morals': "data/morals.txt",
-  'gun_control': "data/gun_control.txt",
-  'education: "data/education.txt"',
-  'human_rights: "data/human_rights.txt"'
+  'philosophy': 'data/philosophy.txt',
+  'politics': 'data/politics.txt',
+  'misc': 'data/misc.txt'
 }
 
 def add_topic(
