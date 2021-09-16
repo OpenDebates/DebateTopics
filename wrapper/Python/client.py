@@ -26,7 +26,7 @@ class Client:
   ) -> None:
     self.token=token
     
-  async def get_topic(
+  def get_topic(
     amount: int=1
   ) -> typing.Union(Topic, typing.List(Topic)):
     req = TopicRequest(
@@ -50,7 +50,7 @@ class Client:
       resp.json()["topic"]
     )
   
-  async get_topic_by_category(
+  def get_topic_by_category(
     category: str,
     amount: int=1
   ) -> typing.Union(Topic, typing.List(Topic)):
@@ -76,7 +76,7 @@ class Client:
       resp.json()["topic"]
     )
     
-  async get_topic_by_categories(
+  def get_topic_by_categories(
     categories: str,
     amount: int=1
   ) -> typing.Union(Topic, typing.List(Topic)):
