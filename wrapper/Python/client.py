@@ -101,7 +101,7 @@ class Client:
       resp.json()["topic"]
     )
           
-  async def add_topic(
+  def add_topic(
     topic: str,
     category: str
   ) -> bool:
