@@ -3,6 +3,8 @@ import secrets
 import json
 from random import *
 
+# NOTE: Before the API is actually released, tokens will be stored in a secure database, hashed, and salted.
+
 def validate_token(
   args: typing.List(
     typing.Union(
