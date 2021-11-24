@@ -4,6 +4,39 @@ a repository to hold Topic Workshop topics for more easy access.
 
 # Topics 
 
+## TW 21/11/21 - 2
+
+1. Urban Dictionary is the BEST dictionary.
+2. Israel was justified in their actions against Palestine in May of 2021.
+
+## TW 10/11/21 - 1
+
+1. The Taliban is the legitimate government of Afghanistan
+2. 4chan should be removed from the internet
+3. Repeat offenders under the Nordic prison model should get a progressively lessened focus on rehabilitation for every crime committed
+4. National socialism is the best governmental system
+5. Childhood obesity is neglect and therefore child abuse
+6. The rule-following paradox is not a valid refutation to physicalism. (https://en.wikipedia.org/wiki/Wittgenstein_on_Rules_and_Private_Language)
+7. If the definition of good is not normative, it has nothing to do with morality.
+8. Spanking your kid is harmful to their development.
+9. No technology provider should have a monopoly on the right to repair their produced devices.
+10. Patents shouldn't exist
+11. Being a climate change doomer hurts actually sound solutions for climate change
+12. The voting age should be lowered
+13. There should be a social initiative to put homeless people in homes
+14. There should be a work initiative to educate the people who haven't received enough education to get a job
+15. Age of consent shouldn't exist
+16. Mein Kampf is a good book
+17. A large portion of racists are just malinformed
+18. Modern feminism is harmful to gender equality
+19. This server is 1984
+20. Men controlling a larger portion of the world econemy has no correlation to gender inequality in society
+21. Religion is child abuse
+22. The Japanese government owns the Taiwan
+23. Everyone should be forced to attend school until the 12 grade
+24. Kyle Rittenhouse shot people in the Kenosha protest in self defence
+
+
 ## TW 15/9/21 - 1
 
 1. Schools should be allowed to restrict internet usage on school devices when a student is at home.
