@@ -20,7 +20,7 @@ class InvalidCategoryError(Exception):
  
 class TopicRequiredError(Exception):
   def __repr__(self) -> str:
-    return "Topic is a required argument that is missing.
+    return "Topic is a required argument that is missing."
 
 class TopicExistsError(Exception):
   def __init__(self, topic: str) -> None:
